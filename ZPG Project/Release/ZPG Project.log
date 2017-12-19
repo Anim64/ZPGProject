@@ -1,0 +1,5 @@
+﻿  Scene.cpp
+Scene.cpp(28): warning C4018: '<': signed/unsigned mismatch
+  Shader.cpp
+Application.obj : error LNK2001: unresolved external symbol "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+C:\Users\Standard\documents\visual studio 2015\Projects\ZPG Project\Release\ZPG Project.exe : fatal error LNK1120: 1 unresolved externals

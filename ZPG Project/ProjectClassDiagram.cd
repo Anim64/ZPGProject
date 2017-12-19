@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Application">
+    <Position X="11" Y="0.5" Width="1.75" />
+    <AssociationLine Name="currentScene" Type="Scene">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.62" Y="0.129" Height="0.182" Width="1.388" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAIAAQAARAQAAkAAAAAAJAAAAACAAQJAAAgAAAAgBA=</HashCode>
+      <FileName>Application.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentScene" />
+      <Field Name="renderer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Scene">
+    <Position X="6.75" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAgACAAEggAAEAAAAQQAAAAAAAAAAAEAAQAA=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="objects" />
+      <Field Name="shader" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Shader">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAAAAAAAAAIAAAAgAEAAAAAAAAAABAAgAAQAAQA=</HashCode>
+      <FileName>Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderLoader">
+    <Position X="1" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAACAAAAAAAAAAAAAAAAAAAgAAAEAAAAIAAAQAAA=</HashCode>
+      <FileName>ShaderLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAAQIAAAAgAAAQAAACAAAAAAAAAAAAAEAkBAA=</HashCode>
+      <FileName>Object.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="shader" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IUoEEIEqCLBMUEBAAKMIAgISAgUESAIAxQMwgwAEQgI=</HashCode>
+      <FileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renderer">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAEAIAAAAAAAAAAAAAAAAAAAIAACAAAAAAAA=</HashCode>
+      <FileName>Renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
